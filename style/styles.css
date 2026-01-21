@@ -1,0 +1,170 @@
+body {
+  font-family: "Inter";
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+}
+
+#sidebar-header {
+  color: white;
+  border-bottom: 4px solid white;
+  font-family: "Playfair Display";
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+#link {
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  height: 32px;
+  background-color: red;
+  text-align: center;
+  align-content: center;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+#link:hover {
+  opacity: 0.7;
+}
+
+.line {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: 2px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  background-color: #d36135;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100px;
+  font-size: 28px;
+  font-family: "Playfair Display";
+  padding-bottom: 8px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #a24936;
+  align-items: center;
+  gap: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 650px;
+  height: 650px;
+  margin-top: 64px;
+  margin-left: 200px;
+  margin-bottom: 64px;
+  border: 4px solid black;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  border: 1px solid dimgray;
+  box-sizing: border-box;
+}
+
+.no-borders .grid-cell {
+  border: none;
+}
+
+button {
+  border: none;
+  height: 24px;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+button:not(:disabled):hover {
+  opacity: 0.7;
+}
+
+#generate-button {
+  background-color: #10ffcb;
+  border: 4px solid greenyellow;
+  height: 30px;
+}
+
+#change-color {
+  background-color: black;
+  color: white;
+}
+
+#change-color.active {
+  background-color: white;
+  color: black;
+}
+
+#change-color.inactive {
+  background-color: grey;
+  color: darkslategrey;
+}
+
+#stop-coloring,
+#stop-changing-opacity,
+#disable-custom-color.on,
+#decrease-opacity.on,
+#erase.on,
+#remove-borders {
+  background-color: #22c55e;
+}
+
+#stop-coloring.off,
+#stop-changing-opacity.off,
+#disable-custom-color,
+#decrease-opacity,
+#erase,
+#remove-borders.off {
+  background-color: #ef4444;
+  color: white;
+}
+
+#custom-color-button,
+#reset {
+  background-color: deepskyblue;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 2px dashed white;
+  padding: 4px;
+}
+
+.color-box {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  background-color: #282b28;
+  height: 64px;
+  color: white;
+  align-content: center;
+}

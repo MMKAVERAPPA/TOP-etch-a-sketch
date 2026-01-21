@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet" />
+  <script src="logic.js" defer></script>
+  <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Etch-a-Sketch</h1>
+  </div>
+  <div class="content">
+    <div class="sidebar">
+      <h2 id="sidebar-header">SideBar</h2>
+      <p class="line"></p>
+      <a href="how-to-play.html" id="link">How to Play</a>
+      <p class="line"></p>
+      <button id="generate-button">Generate the Grid</button>
+      <button id="change-color">Toggle Black/Random Color</button>
+      <button id="stop-coloring">Coloring: ON</button>
+      <button id="stop-changing-opacity">Opacity Increase: ON</button>
+      <button id="decrease-opacity">Opacity Manual Decrease: OFF</button>
+      <div class="box">
+        <div class="color-box">
+          <input type="color" id="color-picker" value="#000000" />
+          <button id="custom-color-button" disabled>Submit</button>
+        </div>
+        <button id="disable-custom-color">Custom Color: OFF</button>
+      </div>
+      <button id="erase">Erase: OFF</button>
+      <button id="remove-borders">Internal Grid: ON</button>
+      <p class="line"></p>
+      <button id="reset">RESET</button>
+      <p class="line"></p>
+    </div>
+    <div class="container"></div>
+  </div>
+  <div class="footer">
+    <p>Copyright &copy M M Kaverappa 2026</p>
+  </div>
+</body>
+
+</html>
