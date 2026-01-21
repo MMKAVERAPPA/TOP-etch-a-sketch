@@ -3,6 +3,8 @@
 This project is part of the **Foundations course** from **The Odin Project**.  
 It recreates a digital version of the classic Etch-A-Sketch toy, allowing users to draw by hovering over a grid.
 
+- View the Project [here](https://mmkaverappa.github.io/TOP-etch-a-sketch/index.html)
+
 ![Project Screenshot](images/screenshot.png)
 
 ## Features
@@ -21,5 +23,10 @@ You can switch between drawing modes, change colors, toggle opacity effects, and
 
 ## Gallery
 
-![Seashore](images/seashore.png)
-![MMK](images/mmk.png)
+<p align="center">
+  <img src="images/seashore.png" alt="Seashore" width="400">
+</p>
+
+<p align="center">
+  <img src="images/mmk.png" alt="MMK" width="400">
+</p>
