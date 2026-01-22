@@ -13,7 +13,7 @@ const originalContainer = container.innerHTML;
 
 let isBlack = true;
 let isColorable = true;
-let changeOpacity = true;
+let changeOpacity = false;
 let background = "black";
 let enableCustomColor = false;
 let reverseChangeOpacity = false;
@@ -72,10 +72,10 @@ document.addEventListener("keydown", (event) => {
 
 stopIncreaseOpacity.addEventListener("click", (event) => {
   changeOpacity = !changeOpacity;
-  const isOn = stopIncreaseOpacity.classList.toggle("off");
+  const isOn = stopIncreaseOpacity.classList.toggle("on");
   stopIncreaseOpacity.textContent = isOn
-    ? "Opacity Increase: OFF"
-    : "Opacity Increase: ON";
+    ? "Opacity Increase: ON"
+    : "Opacity Increase: OFF";
 });
 
 decreaseOpacity.addEventListener("click", (event) => {

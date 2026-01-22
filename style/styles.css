@@ -87,7 +87,7 @@ body {
 }
 
 .no-borders .grid-cell {
-  border: none;
+  outline: none;
 }
 
 button {
@@ -124,7 +124,7 @@ button:not(:disabled):hover {
 }
 
 #stop-coloring,
-#stop-changing-opacity,
+#stop-changing-opacity.on,
 #disable-custom-color.on,
 #decrease-opacity.on,
 #erase.on,
@@ -133,7 +133,7 @@ button:not(:disabled):hover {
 }
 
 #stop-coloring.off,
-#stop-changing-opacity.off,
+#stop-changing-opacity,
 #disable-custom-color,
 #decrease-opacity,
 #erase,
